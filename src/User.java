@@ -14,6 +14,7 @@ public class User {
     }
 
     public void displayInfo(){
-        System.out.println("User Info: Name = " + name + ", Date of Birth = " + dob);
+        System.out.println("User Info: " + name + ",Date of Birth: "+ dob );
+
     }
 }

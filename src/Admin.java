@@ -16,6 +16,7 @@ public class Admin extends User {
                 System.out.println("Admin Info: " + name + ",Date of Birth: "+ dob );
                 System.out.println("User type: admin" + ",Today's Date: " + LocalDate.now());
             } else {
+
                 System.out.println("Admin Name: " + name);
             }
         }
